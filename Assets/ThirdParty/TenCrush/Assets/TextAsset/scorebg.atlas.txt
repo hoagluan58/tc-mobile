@@ -1,0 +1,167 @@
+
+scorebg.png
+size: 788,1044
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3
+  rotate: false
+  xy: 441, 356
+  size: 40, 64
+  orig: 40, 64
+  offset: 0, 0
+  index: -1
+31
+  rotate: true
+  xy: 145, 47
+  size: 73, 69
+  orig: 73, 69
+  offset: 0, 0
+  index: -1
+32
+  rotate: false
+  xy: 476, 500
+  size: 13, 52
+  orig: 13, 52
+  offset: 0, 0
+  index: -1
+41
+  rotate: true
+  xy: 335, 2
+  size: 55, 53
+  orig: 55, 53
+  offset: 0, 0
+  index: -1
+42
+  rotate: true
+  xy: 75, 45
+  size: 75, 68
+  orig: 75, 68
+  offset: 0, 0
+  index: -1
+43
+  rotate: false
+  xy: 476, 446
+  size: 12, 52
+  orig: 12, 52
+  offset: 0, 0
+  index: -1
+bg0
+  rotate: true
+  xy: 2, 122
+  size: 430, 437
+  orig: 430, 437
+  offset: 0, 0
+  index: -1
+bg1
+  rotate: false
+  xy: 492, 307
+  size: 291, 309
+  orig: 291, 309
+  offset: 0, 0
+  index: -1
+bg2
+  rotate: true
+  xy: 492, 618
+  size: 423, 292
+  orig: 423, 292
+  offset: 0, 0
+  index: -1
+cao1
+  rotate: false
+  xy: 407, 82
+  size: 29, 38
+  orig: 29, 38
+  offset: 0, 0
+  index: -1
+cao2
+  rotate: false
+  xy: 2, 11
+  size: 71, 109
+  orig: 71, 109
+  offset: 0, 0
+  index: -1
+cao3
+  rotate: false
+  xy: 441, 422
+  size: 33, 130
+  orig: 33, 130
+  offset: 0, 0
+  index: -1
+grass1
+  rotate: true
+  xy: 154, 5
+  size: 40, 53
+  orig: 40, 53
+  offset: 0, 0
+  index: -1
+grass2
+  rotate: false
+  xy: 335, 59
+  size: 70, 61
+  orig: 70, 61
+  offset: 0, 0
+  index: -1
+grass3
+  rotate: false
+  xy: 771, 251
+  size: 15, 54
+  orig: 15, 54
+  offset: 0, 0
+  index: -1
+h1
+  rotate: false
+  xy: 441, 306
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+椭圆 1096 拷贝 3
+  rotate: false
+  xy: 441, 306
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+椭圆 1096 拷贝 4
+  rotate: false
+  xy: 441, 306
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+hua
+  rotate: true
+  xy: 216, 37
+  size: 83, 57
+  orig: 83, 57
+  offset: 0, 0
+  index: -1
+hua1
+  rotate: true
+  xy: 75, 14
+  size: 29, 77
+  orig: 29, 77
+  offset: 0, 0
+  index: -1
+hua2
+  rotate: true
+  xy: 275, 41
+  size: 79, 58
+  orig: 79, 58
+  offset: 0, 0
+  index: -1
+stage_bg 拷贝
+  rotate: false
+  xy: 2, 554
+  size: 488, 487
+  orig: 488, 487
+  offset: 0, 0
+  index: -1
+stage_bg_front
+  rotate: false
+  xy: 441, 86
+  size: 328, 218
+  orig: 328, 218
+  offset: 0, 0
+  index: -1

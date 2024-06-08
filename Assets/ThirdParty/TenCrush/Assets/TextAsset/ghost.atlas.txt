@@ -1,0 +1,27 @@
+
+ghost.png
+size: 312,132
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/monster3/body
+  rotate: false
+  xy: 2, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+images/monster3/body_f
+  rotate: false
+  xy: 132, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+images/monster3/body_ff
+  rotate: false
+  xy: 262, 8
+  size: 48, 122
+  orig: 48, 122
+  offset: 0, 0
+  index: -1

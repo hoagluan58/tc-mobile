@@ -1,0 +1,41 @@
+
+magichat.png
+size: 176,380
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hat
+  rotate: false
+  xy: 2, 2
+  size: 172, 133
+  orig: 172, 133
+  offset: 0, 0
+  index: -1
+hat_f
+  rotate: false
+  xy: 2, 137
+  size: 170, 128
+  orig: 174, 130
+  offset: 2, 1
+  index: -1
+ls
+  rotate: false
+  xy: 2, 351
+  size: 24, 24
+  orig: 26, 26
+  offset: 1, 1
+  index: -1
+maguc
+  rotate: false
+  xy: 2, 267
+  size: 152, 54
+  orig: 154, 56
+  offset: 1, 1
+  index: -1
+wl
+  rotate: false
+  xy: 28, 323
+  size: 101, 52
+  orig: 101, 52
+  offset: 0, 0
+  index: -1

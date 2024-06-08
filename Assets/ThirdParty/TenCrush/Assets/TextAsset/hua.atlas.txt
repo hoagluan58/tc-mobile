@@ -1,0 +1,104 @@
+
+hua.png
+size: 312,160
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hua1
+  rotate: true
+  xy: 269, 117
+  size: 41, 40
+  orig: 41, 40
+  offset: 0, 0
+  index: -1
+hua2
+  rotate: true
+  xy: 2, 2
+  size: 63, 59
+  orig: 63, 59
+  offset: 0, 0
+  index: -1
+hua3
+  rotate: false
+  xy: 2, 67
+  size: 91, 91
+  orig: 91, 91
+  offset: 0, 0
+  index: -1
+形状 1036
+  rotate: false
+  xy: 177, 52
+  size: 44, 47
+  orig: 44, 47
+  offset: 0, 0
+  index: -1
+形状 1036 拷贝
+  rotate: false
+  xy: 269, 75
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+形状 1036 拷贝 2
+  rotate: true
+  xy: 177, 5
+  size: 45, 43
+  orig: 45, 43
+  offset: 0, 0
+  index: -1
+形状 1036 拷贝 3
+  rotate: false
+  xy: 264, 11
+  size: 40, 42
+  orig: 40, 42
+  offset: 0, 0
+  index: -1
+形状 1036 拷贝 4
+  rotate: false
+  xy: 222, 5
+  size: 40, 45
+  orig: 40, 45
+  offset: 0, 0
+  index: -1
+形状 1036 拷贝 5
+  rotate: true
+  xy: 228, 116
+  size: 42, 39
+  orig: 42, 39
+  offset: 0, 0
+  index: -1
+形状 1037
+  rotate: false
+  xy: 95, 75
+  size: 73, 83
+  orig: 73, 83
+  offset: 0, 0
+  index: -1
+形状 1037 拷贝
+  rotate: true
+  xy: 119, 16
+  size: 57, 56
+  orig: 57, 56
+  offset: 0, 0
+  index: -1
+形状 1037 拷贝 2
+  rotate: true
+  xy: 170, 101
+  size: 57, 56
+  orig: 57, 56
+  offset: 0, 0
+  index: -1
+形状 1037 拷贝 3
+  rotate: true
+  xy: 63, 5
+  size: 60, 54
+  orig: 60, 54
+  offset: 0, 0
+  index: -1
+椭圆 1096 拷贝 3
+  rotate: false
+  xy: 223, 55
+  size: 44, 44
+  orig: 56, 56
+  offset: 6, 6
+  index: -1

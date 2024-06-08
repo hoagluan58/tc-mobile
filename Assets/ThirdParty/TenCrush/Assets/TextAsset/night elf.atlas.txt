@@ -1,0 +1,55 @@
+
+night elf.png
+size: 362,249
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/monster2/images/waveline
+  rotate: false
+  xy: 2, 2
+  size: 112, 6
+  orig: 112, 6
+  offset: 0, 0
+  index: -1
+images/mosnter/body1
+  rotate: false
+  xy: 2, 113
+  size: 177, 134
+  orig: 177, 134
+  offset: 0, 0
+  index: -1
+images/mosnter/body1_f
+  rotate: false
+  xy: 2, 10
+  size: 159, 101
+  orig: 159, 101
+  offset: 0, 0
+  index: -1
+images/mosnter/body2
+  rotate: false
+  xy: 181, 113
+  size: 177, 134
+  orig: 177, 134
+  offset: 0, 0
+  index: -1
+images/mosnter/body2_f
+  rotate: false
+  xy: 163, 10
+  size: 159, 101
+  orig: 159, 101
+  offset: 0, 0
+  index: -1
+images/mosnter/eye1
+  rotate: true
+  xy: 324, 76
+  size: 35, 36
+  orig: 35, 36
+  offset: 0, 0
+  index: -1
+images/mosnter/eye2
+  rotate: false
+  xy: 324, 49
+  size: 33, 25
+  orig: 33, 25
+  offset: 0, 0
+  index: -1

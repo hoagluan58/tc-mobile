@@ -1,0 +1,20 @@
+
+num_bg.png
+size: 184,184
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+stage_bg_front
+  rotate: false
+  xy: 2, 75
+  size: 114, 105
+  orig: 348, 234
+  offset: 117, 65
+  index: -1
+stage_bg_front 拷贝
+  rotate: false
+  xy: 118, 110
+  size: 62, 70
+  orig: 348, 234
+  offset: 143, 82
+  index: -1

@@ -1,0 +1,195 @@
+
+scorebg_rush.png
+size: 804,1044
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+grass1
+  rotate: true
+  xy: 569, 5
+  size: 40, 53
+  orig: 40, 53
+  offset: 0, 0
+  index: -1
+grass2
+  rotate: true
+  xy: 173, 13
+  size: 70, 61
+  orig: 70, 61
+  offset: 0, 0
+  index: -1
+grass3
+  rotate: false
+  xy: 786, 695
+  size: 15, 54
+  orig: 15, 54
+  offset: 0, 0
+  index: -1
+h1
+  rotate: false
+  xy: 662, 3
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+椭圆 1096 拷贝 3
+  rotate: false
+  xy: 662, 3
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+椭圆 1096 拷贝 4
+  rotate: false
+  xy: 662, 3
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+rush/bg0
+  rotate: false
+  xy: 2, 85
+  size: 468, 468
+  orig: 468, 468
+  offset: 0, 0
+  index: -1
+rush/bg1
+  rotate: true
+  xy: 492, 751
+  size: 291, 309
+  orig: 291, 309
+  offset: 0, 0
+  index: -1
+rush/bg2
+  rotate: true
+  xy: 492, 326
+  size: 423, 292
+  orig: 423, 292
+  offset: 0, 0
+  index: -1
+rush/f1
+  rotate: true
+  xy: 760, 74
+  size: 30, 39
+  orig: 30, 39
+  offset: 0, 0
+  index: -1
+rush/f10
+  rotate: false
+  xy: 690, 54
+  size: 46, 50
+  orig: 46, 50
+  offset: 0, 0
+  index: -1
+rush/f11
+  rotate: true
+  xy: 760, 41
+  size: 31, 38
+  orig: 31, 38
+  offset: 0, 0
+  index: -1
+rush/f12
+  rotate: true
+  xy: 236, 18
+  size: 65, 58
+  orig: 65, 58
+  offset: 0, 0
+  index: -1
+rush/f13
+  rotate: true
+  xy: 2, 2
+  size: 81, 169
+  orig: 81, 169
+  offset: 0, 0
+  index: -1
+rush/f14
+  rotate: false
+  xy: 712, 2
+  size: 46, 50
+  orig: 46, 50
+  offset: 0, 0
+  index: -1
+rush/f15
+  rotate: false
+  xy: 583, 47
+  size: 52, 57
+  orig: 52, 57
+  offset: 0, 0
+  index: -1
+rush/f16
+  rotate: false
+  xy: 529, 47
+  size: 52, 57
+  orig: 52, 57
+  offset: 0, 0
+  index: -1
+rush/f2
+  rotate: false
+  xy: 637, 53
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+rush/f3
+  rotate: true
+  xy: 353, 49
+  size: 34, 109
+  orig: 34, 109
+  offset: 0, 0
+  index: -1
+rush/f4
+  rotate: true
+  xy: 529, 2
+  size: 43, 38
+  orig: 43, 38
+  offset: 0, 0
+  index: -1
+rush/f5
+  rotate: false
+  xy: 353, 4
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+rush/f6
+  rotate: false
+  xy: 296, 24
+  size: 55, 59
+  orig: 55, 59
+  offset: 0, 0
+  index: -1
+rush/f7
+  rotate: false
+  xy: 472, 22
+  size: 55, 82
+  orig: 55, 82
+  offset: 0, 0
+  index: -1
+rush/f8
+  rotate: false
+  xy: 624, 5
+  size: 36, 40
+  orig: 36, 40
+  offset: 0, 0
+  index: -1
+rush/f9
+  rotate: true
+  xy: 403, 4
+  size: 43, 47
+  orig: 43, 47
+  offset: 0, 0
+  index: -1
+rush/stage_bg 拷贝
+  rotate: false
+  xy: 2, 555
+  size: 488, 487
+  orig: 488, 487
+  offset: 0, 0
+  index: -1
+rush/stage_bg_front
+  rotate: false
+  xy: 472, 106
+  size: 328, 218
+  orig: 328, 218
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,237 @@
+
+single_egg.png
+size: 508,524
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+!
+  rotate: false
+  xy: 264, 107
+  size: 11, 29
+  orig: 11, 29
+  offset: 0, 0
+  index: -1
+1
+  rotate: false
+  xy: 383, 379
+  size: 27, 30
+  orig: 27, 30
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 383, 347
+  size: 27, 30
+  orig: 27, 30
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 2, 135
+  size: 131, 140
+  orig: 131, 140
+  offset: 0, 0
+  index: -1
+4_1
+  rotate: true
+  xy: 2, 18
+  size: 115, 139
+  orig: 115, 139
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 144, 2
+  size: 118, 134
+  orig: 118, 134
+  offset: 0, 0
+  index: -1
+diagonal
+  rotate: false
+  xy: 376, 160
+  size: 119, 124
+  orig: 119, 124
+  offset: 0, 0
+  index: -1
+diagonal_1
+  rotate: true
+  xy: 144, 138
+  size: 128, 133
+  orig: 128, 133
+  offset: 0, 0
+  index: -1
+e
+  rotate: false
+  xy: 383, 287
+  size: 26, 22
+  orig: 26, 22
+  offset: 0, 0
+  index: -1
+e1
+  rotate: false
+  xy: 404, 114
+  size: 25, 22
+  orig: 25, 22
+  offset: 0, 0
+  index: -1
+egg2
+  rotate: false
+  xy: 2, 268
+  size: 219, 254
+  orig: 219, 254
+  offset: 0, 0
+  index: -1
+egg2_1
+  rotate: false
+  xy: 223, 286
+  size: 158, 123
+  orig: 158, 123
+  offset: 0, 0
+  index: -1
+egg_m
+  rotate: true
+  xy: 488, 301
+  size: 34, 17
+  orig: 34, 17
+  offset: 0, 0
+  index: -1
+egg_m2 拷贝
+  rotate: true
+  xy: 411, 286
+  size: 38, 41
+  orig: 38, 41
+  offset: 0, 0
+  index: -1
+egg_m3 拷贝
+  rotate: false
+  xy: 431, 48
+  size: 34, 19
+  orig: 34, 19
+  offset: 0, 0
+  index: -1
+egg_m4 拷贝
+  rotate: false
+  xy: 454, 292
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+egg_m5
+  rotate: true
+  xy: 431, 69
+  size: 67, 31
+  orig: 67, 31
+  offset: 0, 0
+  index: -1
+egg_m6
+  rotate: false
+  xy: 383, 311
+  size: 26, 34
+  orig: 26, 34
+  offset: 0, 0
+  index: -1
+glass
+  rotate: false
+  xy: 223, 411
+  size: 187, 111
+  orig: 187, 111
+  offset: 0, 0
+  index: -1
+hat
+  rotate: true
+  xy: 279, 108
+  size: 176, 95
+  orig: 176, 95
+  offset: 0, 0
+  index: -1
+ll
+  rotate: false
+  xy: 412, 384
+  size: 89, 138
+  orig: 89, 138
+  offset: 0, 0
+  index: -1
+ll_1
+  rotate: true
+  xy: 277, 8
+  size: 98, 152
+  orig: 98, 152
+  offset: 0, 0
+  index: -1
+red2
+  rotate: true
+  xy: 412, 326
+  size: 56, 41
+  orig: 56, 41
+  offset: 0, 0
+  index: -1
+tear
+  rotate: true
+  xy: 464, 111
+  size: 25, 21
+  orig: 25, 21
+  offset: 0, 0
+  index: -1
+x
+  rotate: true
+  xy: 486, 337
+  size: 21, 20
+  orig: 21, 20
+  offset: 0, 0
+  index: -1
+x1
+  rotate: true
+  xy: 486, 360
+  size: 22, 20
+  orig: 22, 20
+  offset: 0, 0
+  index: -1
+椭圆 1 拷贝
+  rotate: false
+  xy: 376, 110
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+椭圆 1 拷贝 4
+  rotate: true
+  xy: 455, 326
+  size: 56, 29
+  orig: 56, 29
+  offset: 0, 0
+  index: -1
+椭圆 1 拷贝 6
+  rotate: false
+  xy: 464, 90
+  size: 29, 19
+  orig: 29, 19
+  offset: 0, 0
+  index: -1
+椭圆 1 拷贝 8
+  rotate: false
+  xy: 259, 277
+  size: 7, 7
+  orig: 7, 7
+  offset: 0, 0
+  index: -1
+椭圆 1205
+  rotate: false
+  xy: 376, 138
+  size: 106, 20
+  orig: 106, 20
+  offset: 0, 0
+  index: -1
+椭圆 2
+  rotate: false
+  xy: 464, 72
+  size: 29, 16
+  orig: 29, 16
+  offset: 0, 0
+  index: -1
+椭圆 2 拷贝 4
+  rotate: false
+  xy: 223, 268
+  size: 34, 16
+  orig: 34, 16
+  offset: 0, 0
+  index: -1

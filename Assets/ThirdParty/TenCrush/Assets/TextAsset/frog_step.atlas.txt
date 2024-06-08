@@ -1,0 +1,20 @@
+
+frog_step.png
+size: 164,92
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frog_wave1
+  rotate: true
+  xy: 101, 21
+  size: 69, 60
+  orig: 69, 60
+  offset: 0, 0
+  index: -1
+frog_wave2
+  rotate: false
+  xy: 2, 2
+  size: 97, 88
+  orig: 97, 88
+  offset: 0, 0
+  index: -1

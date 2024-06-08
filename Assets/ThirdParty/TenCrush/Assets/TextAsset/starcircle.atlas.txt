@@ -1,0 +1,20 @@
+
+starcircle.png
+size: 137,28
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huan
+  rotate: false
+  xy: 2, 2
+  size: 108, 24
+  orig: 108, 24
+  offset: 0, 0
+  index: -1
+image_star
+  rotate: true
+  xy: 112, 2
+  size: 24, 23
+  orig: 24, 23
+  offset: 0, 0
+  index: -1

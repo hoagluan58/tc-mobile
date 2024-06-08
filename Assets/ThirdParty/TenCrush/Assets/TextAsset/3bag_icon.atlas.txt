@@ -1,0 +1,76 @@
+
+3bag_icon.png
+size: 228,180
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bell
+  rotate: false
+  xy: 112, 7
+  size: 52, 49
+  orig: 54, 49
+  offset: 1, 0
+  index: -1
+cat
+  rotate: false
+  xy: 2, 89
+  size: 126, 88
+  orig: 126, 88
+  offset: 0, 0
+  index: -1
+d
+  rotate: true
+  xy: 130, 58
+  size: 119, 93
+  orig: 119, 94
+  offset: 0, 0
+  index: -1
+e1
+  rotate: true
+  xy: 112, 59
+  size: 8, 16
+  orig: 8, 16
+  offset: 0, 0
+  index: -1
+e2
+  rotate: true
+  xy: 112, 59
+  size: 8, 16
+  orig: 8, 16
+  offset: 0, 0
+  index: -1
+ew1
+  rotate: true
+  xy: 80, 5
+  size: 33, 25
+  orig: 34, 26
+  offset: 0, 0
+  index: -1
+ew2
+  rotate: true
+  xy: 166, 23
+  size: 33, 25
+  orig: 34, 26
+  offset: 0, 0
+  index: -1
+n
+  rotate: true
+  xy: 112, 69
+  size: 18, 9
+  orig: 18, 9
+  offset: 0, 0
+  index: -1
+s
+  rotate: true
+  xy: 80, 40
+  size: 47, 30
+  orig: 47, 30
+  offset: 0, 0
+  index: -1
+w
+  rotate: false
+  xy: 2, 2
+  size: 76, 85
+  orig: 76, 85
+  offset: 0, 0
+  index: -1

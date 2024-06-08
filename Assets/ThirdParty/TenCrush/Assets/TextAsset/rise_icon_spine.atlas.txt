@@ -1,0 +1,55 @@
+
+rise_icon_spine.png
+size: 224,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chi1
+  rotate: false
+  xy: 122, 2
+  size: 28, 32
+  orig: 30, 34
+  offset: 1, 1
+  index: -1
+chi2
+  rotate: false
+  xy: 179, 6
+  size: 28, 28
+  orig: 30, 30
+  offset: 1, 1
+  index: -1
+e1
+  rotate: false
+  xy: 204, 103
+  size: 14, 22
+  orig: 16, 24
+  offset: 1, 1
+  index: -1
+e2
+  rotate: false
+  xy: 204, 79
+  size: 15, 22
+  orig: 17, 24
+  offset: 1, 1
+  index: -1
+elf
+  rotate: false
+  xy: 2, 2
+  size: 118, 123
+  orig: 120, 125
+  offset: 1, 1
+  index: -1
+hat
+  rotate: true
+  xy: 122, 36
+  size: 89, 80
+  orig: 89, 80
+  offset: 0, 0
+  index: -1
+tear
+  rotate: false
+  xy: 152, 2
+  size: 25, 32
+  orig: 25, 33
+  offset: 0, 1
+  index: -1

@@ -1,0 +1,55 @@
+
+flybomb.png
+size: 200,120
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+b
+  rotate: false
+  xy: 2, 5
+  size: 111, 110
+  orig: 113, 112
+  offset: 1, 1
+  index: -1
+t
+  rotate: true
+  xy: 167, 13
+  size: 13, 25
+  orig: 15, 27
+  offset: 1, 1
+  index: -1
+组 5
+  rotate: true
+  xy: 167, 28
+  size: 40, 30
+  orig: 40, 30
+  offset: 0, 0
+  index: -1
+组 6
+  rotate: false
+  xy: 115, 2
+  size: 50, 28
+  orig: 50, 28
+  offset: 0, 0
+  index: -1
+组 7
+  rotate: true
+  xy: 159, 70
+  size: 45, 36
+  orig: 45, 36
+  offset: 0, 0
+  index: -1
+组 8
+  rotate: true
+  xy: 115, 32
+  size: 36, 50
+  orig: 36, 50
+  offset: 0, 0
+  index: -1
+组 9
+  rotate: true
+  xy: 115, 70
+  size: 45, 42
+  orig: 45, 42
+  offset: 0, 0
+  index: -1

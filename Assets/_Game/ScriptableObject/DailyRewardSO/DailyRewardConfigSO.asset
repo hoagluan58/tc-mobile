@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49c9861bd490ed54ebf7dc8b6d121be6, type: 3}
+  m_Name: DailyRewardConfigSO
+  m_EditorClassIdentifier: 
+  _sheetId: 172H_xvOR_p5EBg6I9sc2GIlH3qzEeZtzXLlOLHOyDvk
+  _gridId: 681617700
+  _tsvCachePath: 
+  _jsonCachePath: 
+  _datas:
+  - day: 1
+    rewards:
+    - rewardType: 0
+      boosterType: 2
+      currencyType: 0
+      icon: {fileID: 21300000, guid: 0e247693ae80430479dc95192c18933f, type: 3}
+      amount: 3
+      reasonGeneral: unknown
+      reasonSpecific: unknown
+    rewardString: Booster-Hammer-3
+  - day: 2
+    rewards:
+    - rewardType: 0
+      boosterType: 0
+      currencyType: 0
+      icon: {fileID: 21300000, guid: 0b48c715395b4184ebaf06b13d20a726, type: 3}
+      amount: 3
+      reasonGeneral: unknown
+      reasonSpecific: unknown
+    rewardString: Booster-Hint-3
+  - day: 3
+    rewards:
+    - rewardType: 1
+      boosterType: 0
+      currencyType: 0
+      icon: {fileID: 21300000, guid: 29a909c91ef57a54691691e0150574c8, type: 3}
+      amount: 200
+      reasonGeneral: unknown
+      reasonSpecific: unknown
+    rewardString: Currency-Coin-200
+  - day: 4
+    rewards:
+    - rewardType: 0
+      boosterType: 3
+      currencyType: 0
+      icon: {fileID: 21300000, guid: 9caec31aaee72ca4e84a3f6b0f8e5aba, type: 3}
+      amount: 3
+      reasonGeneral: unknown
+      reasonSpecific: unknown
+    rewardString: Booster-Undo-3
+  - day: 5
+    rewards:
+    - rewardType: 0
+      boosterType: 1
+      currencyType: 0
+      icon: {fileID: 21300000, guid: bd278af3481a0f34db069f233124a45a, type: 3}
+      amount: 3
+      reasonGeneral: unknown
+      reasonSpecific: unknown
+    rewardString: Booster-Bomb-3
+  - day: 6
+    rewards:
+    - rewardType: 1
+      boosterType: 0
+      currencyType: 0
+      icon: {fileID: 21300000, guid: 29a909c91ef57a54691691e0150574c8, type: 3}
+      amount: 500
+      reasonGeneral: unknown
+      reasonSpecific: unknown
+    rewardString: Currency-Coin-500
+  - day: 7
+    rewards:
+    - rewardType: 1
+      boosterType: 0
+      currencyType: 0
+      icon: {fileID: 21300000, guid: 29a909c91ef57a54691691e0150574c8, type: 3}
+      amount: 1000
+      reasonGeneral: unknown
+      reasonSpecific: unknown
+    - rewardType: 0
+      boosterType: 0
+      currencyType: 0
+      icon: {fileID: 21300000, guid: 0b48c715395b4184ebaf06b13d20a726, type: 3}
+      amount: 2
+      reasonGeneral: unknown
+      reasonSpecific: unknown
+    - rewardType: 0
+      boosterType: 2
+      currencyType: 0
+      icon: {fileID: 21300000, guid: 0e247693ae80430479dc95192c18933f, type: 3}
+      amount: 2
+      reasonGeneral: unknown
+      reasonSpecific: unknown
+    - rewardType: 0
+      boosterType: 3
+      currencyType: 0
+      icon: {fileID: 21300000, guid: 9caec31aaee72ca4e84a3f6b0f8e5aba, type: 3}
+      amount: 2
+      reasonGeneral: unknown
+      reasonSpecific: unknown
+    - rewardType: 0
+      boosterType: 1
+      currencyType: 0
+      icon: {fileID: 21300000, guid: bd278af3481a0f34db069f233124a45a, type: 3}
+      amount: 2
+      reasonGeneral: unknown
+      reasonSpecific: unknown
+    rewardString: Currency-Coin-1000;Booster-Hint-2;Booster-Hammer-2;Booster-Undo-2;Booster-Bomb-2

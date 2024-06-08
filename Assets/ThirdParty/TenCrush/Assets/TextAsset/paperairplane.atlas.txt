@@ -1,0 +1,13 @@
+
+paperairplane.png
+size: 220,220
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+paperAirplane
+  rotate: false
+  xy: 2, 42
+  size: 213, 173
+  orig: 256, 256
+  offset: 24, 34
+  index: -1

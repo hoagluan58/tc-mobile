@@ -1,0 +1,34 @@
+
+heart.png
+size: 552,208
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+746
+  rotate: true
+  xy: 528, 179
+  size: 27, 19
+  orig: 27, 19
+  offset: 0, 0
+  index: -1
+egg2
+  rotate: false
+  xy: 2, 2
+  size: 244, 204
+  orig: 244, 204
+  offset: 0, 0
+  index: -1
+heartl
+  rotate: false
+  xy: 248, 5
+  size: 147, 201
+  orig: 147, 201
+  offset: 0, 0
+  index: -1
+heartr
+  rotate: false
+  xy: 397, 8
+  size: 129, 198
+  orig: 129, 198
+  offset: 0, 0
+  index: -1

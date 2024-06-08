@@ -1,0 +1,13 @@
+
+web.png
+size: 122,122
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+spider web
+  rotate: false
+  xy: 2, 2
+  size: 118, 118
+  orig: 118, 118
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,90 @@
+
+3bag.png
+size: 956,448
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bag1_1
+  rotate: false
+  xy: 637, 16
+  size: 158, 187
+  orig: 158, 187
+  offset: 0, 0
+  index: -1
+bag1_2
+  rotate: true
+  xy: 298, 2
+  size: 149, 169
+  orig: 149, 169
+  offset: 0, 0
+  index: -1
+bag1_3
+  rotate: true
+  xy: 469, 2
+  size: 149, 166
+  orig: 149, 166
+  offset: 0, 0
+  index: -1
+bag2_1
+  rotate: false
+  xy: 322, 244
+  size: 206, 202
+  orig: 206, 202
+  offset: 0, 0
+  index: -1
+bag2_2
+  rotate: false
+  xy: 530, 254
+  size: 199, 192
+  orig: 199, 192
+  offset: 0, 0
+  index: -1
+bag2_3
+  rotate: false
+  xy: 731, 257
+  size: 201, 189
+  orig: 201, 189
+  offset: 0, 0
+  index: -1
+bag3_1
+  rotate: false
+  xy: 797, 84
+  size: 118, 119
+  orig: 120, 121
+  offset: 1, 1
+  index: -1
+bag3_2
+  rotate: false
+  xy: 2, 194
+  size: 318, 252
+  orig: 318, 252
+  offset: 0, 0
+  index: -1
+bag3_3
+  rotate: false
+  xy: 2, 22
+  size: 294, 170
+  orig: 294, 199
+  offset: 0, 15
+  index: -1
+bag3_31
+  rotate: false
+  xy: 322, 153
+  size: 256, 89
+  orig: 294, 199
+  offset: 19, 55
+  index: -1
+shadow
+  rotate: false
+  xy: 797, 32
+  size: 155, 50
+  orig: 157, 52
+  offset: 1, 1
+  index: -1
+shadow1
+  rotate: false
+  xy: 731, 205
+  size: 199, 50
+  orig: 201, 52
+  offset: 1, 1
+  index: -1

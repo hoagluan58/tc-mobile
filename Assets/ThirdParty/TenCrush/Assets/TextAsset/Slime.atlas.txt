@@ -1,0 +1,160 @@
+
+Slime.png
+size: 205,409
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
++
+  rotate: false
+  xy: 104, 2
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+drop
+  rotate: true
+  xy: 179, 29
+  size: 15, 18
+  orig: 15, 18
+  offset: 0, 0
+  index: -1
+e
+  rotate: false
+  xy: 182, 292
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+e_1
+  rotate: false
+  xy: 182, 269
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+e_2
+  rotate: false
+  xy: 182, 246
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+ew
+  rotate: false
+  xy: 111, 51
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+ew_1
+  rotate: false
+  xy: 2, 3
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+ew_2
+  rotate: false
+  xy: 53, 3
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+jiao
+  rotate: true
+  xy: 170, 123
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+leaf
+  rotate: true
+  xy: 182, 219
+  size: 25, 20
+  orig: 25, 20
+  offset: 0, 0
+  index: -1
+mbody
+  rotate: false
+  xy: 2, 270
+  size: 114, 112
+  orig: 114, 112
+  offset: 0, 0
+  index: -1
+mbody_1
+  rotate: false
+  xy: 2, 162
+  size: 107, 106
+  orig: 107, 106
+  offset: 0, 0
+  index: -1
+mbody_1_y
+  rotate: true
+  xy: 170, 91
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+mbody_2
+  rotate: false
+  xy: 2, 54
+  size: 107, 106
+  orig: 107, 106
+  offset: 0, 0
+  index: -1
+mm
+  rotate: false
+  xy: 162, 64
+  size: 31, 25
+  orig: 31, 25
+  offset: 0, 0
+  index: -1
+mou
+  rotate: true
+  xy: 126, 315
+  size: 92, 62
+  orig: 92, 62
+  offset: 0, 0
+  index: -1
+mou_1
+  rotate: true
+  xy: 118, 221
+  size: 92, 62
+  orig: 92, 62
+  offset: 0, 0
+  index: -1
+mou_2
+  rotate: false
+  xy: 111, 155
+  size: 92, 62
+  orig: 92, 62
+  offset: 0, 0
+  index: -1
+snowflakes
+  rotate: true
+  xy: 111, 102
+  size: 51, 57
+  orig: 51, 57
+  offset: 0, 0
+  index: -1
+wind
+  rotate: false
+  xy: 2, 384
+  size: 122, 23
+  orig: 122, 23
+  offset: 0, 0
+  index: -1
+y
+  rotate: true
+  xy: 153, 27
+  size: 17, 24
+  orig: 17, 24
+  offset: 0, 0
+  index: -1
+y1
+  rotate: true
+  xy: 162, 46
+  size: 16, 25
+  orig: 16, 25
+  offset: 0, 0
+  index: -1

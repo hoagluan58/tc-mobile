@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef314945fd8ca1b4592b9cf0ec6a1603, type: 3}
+  m_Name: ShopDataConfigSO
+  m_EditorClassIdentifier: 
+  _sheetId: 172H_xvOR_p5EBg6I9sc2GIlH3qzEeZtzXLlOLHOyDvk
+  _gridId: 1055026829
+  _tsvCachePath: 
+  _jsonCachePath: 
+  _datas:
+  - id: 1
+    rewards:
+    - rewardType: 0
+      boosterType: 0
+      currencyType: 0
+      icon: {fileID: 21300000, guid: 0b48c715395b4184ebaf06b13d20a726, type: 3}
+      amount: 1
+      reasonGeneral: unknown
+      reasonSpecific: unknown
+    price: 80
+    rewardString: Booster-Hint-1
+  - id: 2
+    rewards:
+    - rewardType: 0
+      boosterType: 1
+      currencyType: 0
+      icon: {fileID: 21300000, guid: bd278af3481a0f34db069f233124a45a, type: 3}
+      amount: 1
+      reasonGeneral: unknown
+      reasonSpecific: unknown
+    price: 200
+    rewardString: Booster-Bomb-1
+  - id: 3
+    rewards:
+    - rewardType: 0
+      boosterType: 2
+      currencyType: 0
+      icon: {fileID: 21300000, guid: 0e247693ae80430479dc95192c18933f, type: 3}
+      amount: 1
+      reasonGeneral: unknown
+      reasonSpecific: unknown
+    price: 100
+    rewardString: Booster-Hammer-1
+  - id: 4
+    rewards:
+    - rewardType: 0
+      boosterType: 3
+      currencyType: 0
+      icon: {fileID: 21300000, guid: 9caec31aaee72ca4e84a3f6b0f8e5aba, type: 3}
+      amount: 1
+      reasonGeneral: unknown
+      reasonSpecific: unknown
+    price: 50
+    rewardString: Booster-Undo-1

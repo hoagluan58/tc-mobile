@@ -1,0 +1,20 @@
+
+bluebellpendant.png
+size: 284,88
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bell
+  rotate: true
+  xy: 2, 2
+  size: 81, 266
+  orig: 81, 266
+  offset: 0, 0
+  index: -1
+bellb
+  rotate: true
+  xy: 270, 69
+  size: 14, 10
+  orig: 14, 10
+  offset: 0, 0
+  index: -1

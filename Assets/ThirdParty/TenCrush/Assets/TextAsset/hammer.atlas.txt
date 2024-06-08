@@ -1,0 +1,160 @@
+
+hammer.png
+size: 1252,366
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blackcloud/_0000_圆角矩形-794-拷贝-6
+  rotate: false
+  xy: 679, 12
+  size: 166, 118
+  orig: 166, 118
+  offset: 0, 0
+  index: -1
+blackcloud/_0001_圆角矩形-794-拷贝-8
+  rotate: false
+  xy: 1047, 180
+  size: 203, 184
+  orig: 203, 184
+  offset: 0, 0
+  index: -1
+blackcloud/_0002_圆角矩形-794-拷贝-5
+  rotate: true
+  xy: 625, 132
+  size: 232, 219
+  orig: 232, 219
+  offset: 0, 0
+  index: -1
+blackcloud/_0003_圆角矩形-794-拷贝-7
+  rotate: true
+  xy: 846, 141
+  size: 223, 199
+  orig: 223, 199
+  offset: 0, 0
+  index: -1
+blackcloud/_0004_圆角矩形-794-拷贝-4
+  rotate: false
+  xy: 847, 7
+  size: 166, 132
+  orig: 166, 132
+  offset: 0, 0
+  index: -1
+blackcloud/_0005_圆角矩形-794-拷贝-3
+  rotate: true
+  xy: 1047, 35
+  size: 143, 100
+  orig: 143, 100
+  offset: 0, 0
+  index: -1
+hammer/bomb
+  rotate: false
+  xy: 367, 64
+  size: 256, 300
+  orig: 256, 300
+  offset: 0, 0
+  index: -1
+hammer/hammer
+  rotate: false
+  xy: 2, 5
+  size: 363, 359
+  orig: 363, 359
+  offset: 0, 0
+  index: -1
+hammer/图层 10
+  rotate: true
+  xy: 542, 6
+  size: 56, 53
+  orig: 56, 53
+  offset: 0, 0
+  index: -1
+hammer/图层 11
+  rotate: true
+  xy: 625, 69
+  size: 61, 52
+  orig: 61, 52
+  offset: 0, 0
+  index: -1
+hammer/图层 13
+  rotate: true
+  xy: 597, 7
+  size: 55, 52
+  orig: 55, 52
+  offset: 0, 0
+  index: -1
+hammer/图层 14
+  rotate: false
+  xy: 1199, 38
+  size: 44, 44
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+hammer/图层 15
+  rotate: false
+  xy: 484, 6
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: -1
+hammer/图层 16
+  rotate: true
+  xy: 426, 5
+  size: 57, 56
+  orig: 57, 56
+  offset: 0, 0
+  index: -1
+hammer/图层 2
+  rotate: false
+  xy: 1015, 112
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+hammer/图层 3
+  rotate: false
+  xy: 1149, 2
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1
+hammer/图层 4
+  rotate: false
+  xy: 1199, 84
+  size: 44, 44
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+hammer/图层 5
+  rotate: false
+  xy: 1201, 130
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+hammer/图层 6
+  rotate: false
+  xy: 1149, 82
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+hammer/图层 7
+  rotate: true
+  xy: 1149, 132
+  size: 46, 50
+  orig: 46, 50
+  offset: 0, 0
+  index: -1
+hammer/图层 8
+  rotate: false
+  xy: 367, 4
+  size: 57, 58
+  orig: 57, 58
+  offset: 0, 0
+  index: -1
+moon/images/star
+  rotate: false
+  xy: 651, 48
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1

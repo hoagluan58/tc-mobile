@@ -1,0 +1,41 @@
+
+rise_music.png
+size: 432,184
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yin1
+  rotate: true
+  xy: 361, 16
+  size: 47, 63
+  orig: 49, 65
+  offset: 1, 1
+  index: -1
+yin2
+  rotate: false
+  xy: 361, 124
+  size: 69, 58
+  orig: 71, 60
+  offset: 1, 1
+  index: -1
+yin3
+  rotate: false
+  xy: 361, 65
+  size: 66, 57
+  orig: 68, 59
+  offset: 1, 1
+  index: -1
+yin4
+  rotate: true
+  xy: 230, 2
+  size: 180, 129
+  orig: 182, 131
+  offset: 1, 1
+  index: -1
+yy
+  rotate: false
+  xy: 2, 21
+  size: 226, 161
+  orig: 228, 163
+  offset: 1, 1
+  index: -1

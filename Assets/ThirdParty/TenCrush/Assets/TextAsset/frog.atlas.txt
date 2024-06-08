@@ -1,0 +1,139 @@
+
+frog.png
+size: 224,224
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 2, 58
+  size: 80, 69
+  orig: 80, 69
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 73, 54
+  size: 69, 45
+  orig: 69, 45
+  offset: 0, 0
+  index: -1
+1z
+  rotate: false
+  xy: 2, 41
+  size: 51, 15
+  orig: 51, 15
+  offset: 0, 0
+  index: -1
+drop
+  rotate: false
+  xy: 55, 40
+  size: 13, 16
+  orig: 15, 18
+  offset: 1, 1
+  index: -1
+edl
+  rotate: false
+  xy: 2, 2
+  size: 37, 37
+  orig: 39, 39
+  offset: 1, 1
+  index: -1
+edr
+  rotate: false
+  xy: 2, 2
+  size: 37, 37
+  orig: 39, 39
+  offset: 1, 1
+  index: -1
+el
+  rotate: true
+  xy: 41, 15
+  size: 24, 12
+  orig: 24, 12
+  offset: 0, 0
+  index: -1
+eul
+  rotate: true
+  xy: 73, 101
+  size: 37, 21
+  orig: 37, 21
+  offset: 0, 0
+  index: -1
+ewl
+  rotate: false
+  xy: 144, 69
+  size: 35, 35
+  orig: 37, 37
+  offset: 1, 1
+  index: -1
+ewr
+  rotate: false
+  xy: 144, 32
+  size: 35, 35
+  orig: 37, 37
+  offset: 1, 1
+  index: -1
+heart
+  rotate: false
+  xy: 96, 106
+  size: 24, 23
+  orig: 28, 25
+  offset: 2, 1
+  index: -1
+heartshi
+  rotate: false
+  xy: 122, 106
+  size: 24, 23
+  orig: 28, 25
+  offset: 2, 1
+  index: -1
+red
+  rotate: true
+  xy: 104, 14
+  size: 38, 29
+  orig: 44, 33
+  offset: 3, 2
+  index: -1
+sai
+  rotate: false
+  xy: 70, 20
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+sai x
+  rotate: true
+  xy: 148, 117
+  size: 12, 17
+  orig: 14, 19
+  offset: 1, 1
+  index: -1
+sail
+  rotate: true
+  xy: 167, 118
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+w
+  rotate: false
+  xy: 2, 140
+  size: 93, 82
+  orig: 93, 82
+  offset: 0, 0
+  index: -1
+wsm
+  rotate: false
+  xy: 167, 108
+  size: 12, 8
+  orig: 12, 8
+  offset: 0, 0
+  index: -1
+wx
+  rotate: true
+  xy: 97, 131
+  size: 91, 80
+  orig: 91, 80
+  offset: 0, 0
+  index: -1
