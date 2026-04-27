@@ -61,6 +61,14 @@ sysinfo.txt
 *.unitypackage
 *.app
 
+# WebGL build output tracked intentionally for GitHub Pages
+!/docs/
+
+# Local WebGL build output (not committed)
+/LocalWebGLBuild/
+/CacheData/
+/BuildGame/
+
 # Crashlytics generated file
 crashlytics-build.properties
 

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Ten Crush — Play Now</title>
+  <meta name="description" content="Match numbers and crush puzzles! Play Ten Crush directly in your browser." />
+  <meta name="theme-color" content="#0f1a2e" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Ten Crush — Play Now" />
+  <meta property="og:description" content="Match numbers and crush puzzles! Play directly in your browser." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #0b0f1a;
+      --surface:   #141c2e;
+      --accent:    #5aadff;
+      --accent2:   #ff6b8a;
+      --text:      #e8f0ff;
+      --muted:     #6b7fa0;
+      --radius:    16px;
+    }
+
+    html, body {
+      width: 100%; height: 100%;
+      background: var(--bg);
+      font-family: 'Outfit', sans-serif;
+      color: var(--text);
+      overflow: hidden;
+    }
+
+    /* ── Game container ─────────────────────────────── */
+    #game-wrap {
+      position: fixed; inset: 0;
+      display: flex; align-items: center; justify-content: center;
+      background: #000;
+    }
+
+    #unity-canvas {
+      /* Portrait: cap to viewport height, respect 9:16 ratio */
+      width:  min(100vw, calc(100vh * 9 / 16));
+      height: min(100vh, calc(100vw * 16 / 9));
+      display: block;
+      touch-action: none;
+    }
+
+    /* Error overlay */
+    #error-overlay {
+      display: none;
+      position: fixed; inset: 0;
+      align-items: center; justify-content: center;
+      flex-direction: column; gap: 12px;
+      background: rgba(11,15,26,0.95);
+      z-index: 200;
+    }
+    #error-overlay.visible { display: flex; }
+    #error-overlay h2 { color: #f87171; font-size: 1.4rem; }
+    #error-overlay p  { color: var(--muted); text-align: center; max-width: 320px; font-size: 0.9rem; line-height: 1.6; }
+    .retry-btn {
+      margin-top: 8px;
+      padding: 12px 28px;
+      border: none; border-radius: 100px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color: #fff; font-family: inherit; font-size: 1rem; font-weight: 600;
+      cursor: pointer;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .retry-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(90,173,255,0.4); }
+    .retry-btn:active { transform: translateY(0); }
+  </style>
+</head>
+<body>
+
+<!-- Error overlay -->
+<div id="error-overlay">
+  <h2>⚠️ Failed to Load</h2>
+  <p>Something went wrong loading the game. Please check your connection and try again.</p>
+  <button class="retry-btn" onclick="location.reload()">Retry</button>
+</div>
+
+<!-- Unity canvas -->
+<div id="game-wrap">
+  <canvas id="unity-canvas" tabindex="-1"></canvas>
+</div>
+
+<script>
+  var buildUrl  = "Build";
+  var loaderUrl = buildUrl + "/{{{ LOADER_FILENAME }}}";
+  var config = {
+    dataUrl:            buildUrl + "/{{{ DATA_FILENAME }}}",
+    frameworkUrl:       buildUrl + "/{{{ FRAMEWORK_FILENAME }}}",
+    codeUrl:            buildUrl + "/{{{ CODE_FILENAME }}}",
+    streamingAssetsUrl: "StreamingAssets",
+    companyName:        "{{{ COMPANY_NAME }}}",
+    productName:        "{{{ PRODUCT_NAME }}}",
+    productVersion:     "{{{ PRODUCT_VERSION }}}",
+  };
+
+  var canvas       = document.getElementById("unity-canvas");
+  var errorOverlay = document.getElementById("error-overlay");
+
+  var script = document.createElement("script");
+  script.src  = loaderUrl;
+  script.onerror = function() {
+    errorOverlay.classList.add("visible");
+  };
+  script.onload = function() {
+    createUnityInstance(canvas, config).catch(function(message) {
+      console.error("Unity load error:", message);
+      errorOverlay.classList.add("visible");
+    });
+  };
+  document.body.appendChild(script);
+</script>
+</body>
+</html>
