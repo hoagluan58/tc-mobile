@@ -32,10 +32,7 @@ namespace TenCrush
             _btnToggleGameplayUI.onClick.AddListener(OnButtonToggleGameplayUIClicked);
             _btnToggleBoosterGroup.onClick.AddListener(OnButtonToggleBoosterGroupClicked);
             _btnToggleTargetGroup.onClick.AddListener(OnButtonToggleTargetGroupClicked);
-            _btnToggleDebugConsole.onClick.AddListener(OnButtonToggleDebugConsoleClicked);
         }
-
-        private void OnButtonToggleDebugConsoleClicked() => MainManager.I.ToggleDebugConsole();
 
         private void OnButtonToggleTargetGroupClicked()
         {

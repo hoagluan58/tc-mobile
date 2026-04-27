@@ -1,13 +1,11 @@
-using NFramework;
 using System.Collections;
+using NFramework;
 using UnityEngine;
 
 namespace TenCrush
 {
     public class MainManager : SingletonMono<MainManager>
     {
-        [SerializeField] private GameObject _ingameDebugConsole;
-
         private void Start()
         {
             Application.targetFrameRate = 60;
@@ -25,26 +23,10 @@ namespace TenCrush
             UIManager.I.Open(Define.UIName.CHEAT_UI);
         }
 
-        public void ToggleDebugConsole()
-        {
-            var isOn = _ingameDebugConsole.activeSelf;
-            _ingameDebugConsole.SetActive(!isOn);
-        }
-
         private IEnumerator CRLoadGame()
         {
             var loadingUI = UIManager.I.Open<LoadingUI>(Define.UIName.LOADING_UI);
             yield return null;
-
-            if (DeviceInfo.IsDevelopment)
-            {
-                UIManager.I.Open(Define.UIName.CHEAT_UI);
-                _ingameDebugConsole.SetActive(true);
-            }
-            else
-            {
-                Destroy(_ingameDebugConsole);
-            }
 
             RegisterAndLoadSave();
             InitGameConfig();

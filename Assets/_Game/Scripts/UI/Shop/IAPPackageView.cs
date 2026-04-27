@@ -1,7 +1,4 @@
 using NFramework;
-#if USE_UNITY_PURCHASING
-using NFramework.IAP;
-#endif
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -15,13 +12,9 @@ namespace TenCrush
         [SerializeField] private TextMeshProUGUI _txtPrice;
         [SerializeField] private List<RewardItemView> _rewardItems;
         [SerializeField] private Button _btnBuy;
-#if USE_UNITY_PURCHASING
-        [SerializeField] private IAPProductSO _productSO;
-#endif
+        [SerializeField] private NFramework.IAP.IAPProductSO _productSO;
 
-#if USE_UNITY_PURCHASING
         private IAPData _iapData;
-#endif
 
         private void Awake()
         {
@@ -33,32 +26,31 @@ namespace TenCrush
         private void OnBuyButtonClicked()
         {
             GameSound.I.PlayButtonClickSFX();
-#if USE_UNITY_PURCHASING
-            GameIAP.I.Purchase(_productSO, (result) =>
-            {
-                if (result)
-                {
-                    ShopManager.I.ClaimPurchaseReward(_productSO);
-                    UIManager.I.Open<RewardPopup>(Define.UIName.REWARD_POPUP).Init(_iapData.rewards);
-                }
-            });
-#endif
+
+            if (_iapData == null) return;
+
+            // IAP removed — grant rewards for free
+            UserData.I.AddRewardDataToUserData(_iapData.rewards);
+            UIManager.I.Open<RewardPopup>(Define.UIName.REWARD_POPUP).Init(_iapData.rewards);
+            
+            // Apply remove ads if applicable
+            if (_productSO.id == Define.IAPProductId.REMOVE_ADS || _productSO.id == Define.IAPProductId.BIG_PACK)
+                NFramework.Ads.AdsManager.I.IsRemoveAds = true;
         }
 
         private void RefreshView()
         {
-#if USE_UNITY_PURCHASING
             _iapData = ShopManager.I.GetIAPData(_productSO.id);
+            if (_iapData == null) return;
 
-            _txtName.text = _productSO.id;
-            _txtPrice.text = _productSO.PriceString;
+            _txtName.text = _iapData.id;
+            _txtPrice.text = "FREE";
             _rewardItems.ForEach(x => x.gameObject.SetActive(false));
             for (var i = 0; i < _iapData.rewards.Count; i++)
             {
                 _rewardItems[i].gameObject.SetActive(true);
                 _rewardItems[i].Init(_iapData.rewards[i]);
             }
-#endif
         }
     }
 }

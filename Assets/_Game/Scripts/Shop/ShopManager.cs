@@ -1,5 +1,4 @@
 using NFramework;
-using NFramework.IAP;
 using UnityEngine;
 
 namespace TenCrush
@@ -17,12 +16,6 @@ namespace TenCrush
         public void Init() => _shopConfig.Init();
 
         public IAPData GetIAPData(string id) => _iapDataConfig.GetIAPData(id);
-
-        public void ClaimPurchaseReward(IAPProductSO productSO)
-        {
-            var iapData = GetIAPData(productSO.id);
-            UserData.I.AddRewardDataToUserData(iapData.rewards);
-        }
 
         public void ClaimAdsBundle()
         {
