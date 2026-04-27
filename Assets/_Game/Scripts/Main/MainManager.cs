@@ -1,5 +1,4 @@
 using NFramework;
-using NFramework.Ads;
 using System.Collections;
 using UnityEngine;
 
@@ -53,30 +52,6 @@ namespace TenCrush
             yield return new WaitForSecondsRealtime(0.5f);
             yield return loadingUI.Fill(Random.Range(0.2f, 0.4f), 1f);
 
-            if (!DeviceInfo.IsNoTracking)
-            {
-                GameTracking.I.Init();
-                yield return null;
-            }
-
-#if USE_UNITY_PURCHASING
-            GameIAP.I.Init();
-            yield return null;
-#endif
-
-            if (!DeviceInfo.IsNoAds)
-            {
-                Falcon.FalconGoogleUMP.FalconUMP.ShowConsentForm(consent =>
-                {
-                    AdsManager.I.ConsentStatus = consent ? EConsentStatus.Yes : EConsentStatus.No;
-                    AdsManager.I.Init(EAdsAdapterType.IronSource, GameTracking.I);
-                }, () =>
-                {
-                    AdsManager.I.Init(EAdsAdapterType.AdMob, GameTracking.I);
-                }, null);
-                yield return new WaitUntil(() => AdsManager.I.ConsentStatus != EConsentStatus.Unknown);
-            }
-
             if (!Application.isEditor)
             {
                 yield return new WaitForSecondsRealtime(1f);
@@ -106,7 +81,6 @@ namespace TenCrush
             SaveManager.I.RegisterSaveData(VibrationManager.I);
             SaveManager.I.RegisterSaveData(SoundManager.I);
             SaveManager.I.RegisterSaveData(DailyRewardManager.I);
-            SaveManager.I.RegisterSaveData(AdsManager.I);
             SaveManager.I.Load();
         }
 

@@ -37,15 +37,12 @@ namespace TenCrush
         private void OnButtonAdsClicked()
         {
             GameSound.I.PlayButtonClickSFX();
-            GameAds.I.ShowReward((result) =>
+            CloseSelf();
+            UserData.I.AddRewardDataToUserData(_rewardData);
+            UIManager.I.Open<RewardPopup>(Define.UIName.REWARD_POPUP).Init(_rewardData, () =>
             {
-                CloseSelf();
-                UserData.I.AddRewardDataToUserData(_rewardData);
-                UIManager.I.Open<RewardPopup>(Define.UIName.REWARD_POPUP).Init(_rewardData, () =>
-                {
-                    GameManager.I.PlayLevel(UserData.I.CurrentLevel);
-                });
-            }, Identifier, _rewardData.rewardType.ToString());
+                GameManager.I.PlayLevel(UserData.I.CurrentLevel);
+            });
         }
 
         private void Init()

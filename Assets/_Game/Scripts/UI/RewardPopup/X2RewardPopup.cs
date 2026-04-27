@@ -28,13 +28,7 @@ namespace TenCrush
         private void OnButtonX2RewardClicked()
         {
             GameSound.I.PlayButtonClickSFX();
-            GameAds.I.ShowReward((result) =>
-            {
-                if (result)
-                {
-                    StartCoroutine(CRShowFlyRewardAnimation(_callback, true));
-                }
-            });
+            StartCoroutine(CRShowFlyRewardAnimation(_callback, true));
         }
 
         private void OnButtonCoolClicked()

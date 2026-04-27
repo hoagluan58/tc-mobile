@@ -30,7 +30,6 @@ namespace TenCrush
             base.OnOpen();
             UpdatePlayButtonText();
             StartCoroutine(CRShowPopup());
-            GameAds.I.ShowBanner();
         }
 
         private void OnButtonPlayClicked()

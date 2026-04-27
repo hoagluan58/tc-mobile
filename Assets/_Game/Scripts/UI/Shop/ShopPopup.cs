@@ -29,14 +29,8 @@ namespace TenCrush
         {
             GameSound.I.PlayButtonClickSFX();
             var reward = ShopManager.I.GetAdsBundleReward();
-            GameAds.I.ShowReward((result) =>
-            {
-                if (result)
-                {
-                    ShopManager.I.ClaimAdsBundle();
-                    UIManager.I.Open<RewardPopup>(Define.UIName.REWARD_POPUP).Init(reward, RefreshAdsBundle);
-                }
-            }, Identifier, reward.rewardType.ToString());
+            ShopManager.I.ClaimAdsBundle();
+            UIManager.I.Open<RewardPopup>(Define.UIName.REWARD_POPUP).Init(reward, RefreshAdsBundle);
         }
 
         private void OnButtonBackClicked()

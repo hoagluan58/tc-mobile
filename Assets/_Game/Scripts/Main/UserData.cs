@@ -33,7 +33,6 @@ namespace TenCrush
             _saveData.coin += amount;
             DataChanged = true;
             OnUserCoinChanged?.Invoke(_saveData.coin);
-            GameTracking.I.TrackEarnVirtualCurrency(amount, reasonGeneral, reasonSpecific);
         }
 
         public void SpendCoin(int amount, string reasonGeneral, string reasonSpecific)
@@ -41,7 +40,6 @@ namespace TenCrush
             _saveData.coin -= amount;
             DataChanged = true;
             OnUserCoinChanged?.Invoke(_saveData.coin);
-            GameTracking.I.TrackSpendVirtualCurrency(amount, reasonGeneral, reasonSpecific);
         }
 
         public int GetBoosterTypeAmount(EBoosterType type)

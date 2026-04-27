@@ -34,7 +34,6 @@ namespace TenCrush
             UIManager.I.Open(Define.UIName.LEVEL_TARGET_POPUP);
             HintBoosterManager.I.CheckPossibleMoves();
             CurGameState.Value = EGameState.Playing;
-            GameTracking.I.TrackLevelStart();
             LevelStartTime = DateTime.Now;
         }
 
@@ -45,13 +44,11 @@ namespace TenCrush
 
             CurGameState.Value = EGameState.Win;
             FailCount = 0;
-            GameTracking.I.TrackLevelWin(DateTime.Now - LevelStartTime);
             UserData.I.CurrentLevel++;
             StartCoroutine(Board.I.PlayWinAnimation(() =>
             {
                 this.InvokeDelay(0.5f, () =>
                 {
-                    GameAds.I.ShowInter(null, Define.UIName.GAME_MENU);
                     UIManager.I.Close(Define.UIName.GAME_MENU);
                     UIManager.I.Open(Define.UIName.WIN_LEVEL_POPUP);
                 });
@@ -65,8 +62,6 @@ namespace TenCrush
 
             CurGameState.Value = EGameState.Lose;
             FailCount++;
-            GameTracking.I.TrackLevelLose(DateTime.Now - LevelStartTime, FailCount);
-            GameAds.I.ShowInter(null, Define.UIName.GAME_MENU);
             UIManager.I.Close(Define.UIName.GAME_MENU);
             UIManager.I.Open(Define.UIName.LOSE_LEVEL_POPUP);
         }

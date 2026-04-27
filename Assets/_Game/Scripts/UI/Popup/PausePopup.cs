@@ -30,7 +30,6 @@ namespace TenCrush
             CloseSelf();
             GameSound.I.PlayButtonClickSFX();
             UIManager.I.Close(Define.UIName.GAME_MENU);
-            GameAds.I.ShowInter(null, Identifier);
             GameManager.I.PlayLevel(UserData.I.CurrentLevel);
         }
 
@@ -43,7 +42,6 @@ namespace TenCrush
         private void OnButtonHomeClicked()
         {
             GameSound.I.PlayButtonClickSFX();
-            GameAds.I.ShowInter(null, Identifier);
             MainManager.I.BackToHomeMenu();
         }
     }

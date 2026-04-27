@@ -27,21 +27,15 @@ namespace TenCrush
         private void OnButtonAdsRewardClicked()
         {
             GameSound.I.PlayButtonClickSFX();
-            GameAds.I.ShowReward((result) =>
+            var multiplyValue = 2;
+            var reward = new RewardData(ERewardType.Currency, ECurrencyType.Coin,
+                Define.WIN_LEVEL_COIN * multiplyValue, false, "level", "levelwinads");
+            UserData.I.AddRewardDataToUserData(reward);
+            CloseSelf();
+            UIManager.I.Open<RewardPopup>(Define.UIName.REWARD_POPUP).Init(reward, () =>
             {
-                if (result)
-                {
-                    var multiplyValue = 2;
-                    var reward = new RewardData(ERewardType.Currency, ECurrencyType.Coin,
-                        Define.WIN_LEVEL_COIN * multiplyValue, false, "level", "levelwinads");
-                    UserData.I.AddRewardDataToUserData(reward);
-                    CloseSelf();
-                    UIManager.I.Open<RewardPopup>(Define.UIName.REWARD_POPUP).Init(reward, () =>
-                    {
-                        GameManager.I.PlayLevel(UserData.I.CurrentLevel);
-                    });
-                }
-            }, Identifier, "coin");
+                GameManager.I.PlayLevel(UserData.I.CurrentLevel);
+            });
         }
 
         private void OnButtonNextLevelClicked()
