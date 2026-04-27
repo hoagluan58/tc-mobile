@@ -3,7 +3,9 @@ using com.adjust.sdk;
 #endif
 using NFramework;
 using NFramework.Ads;
+#if USE_UNITY_PURCHASING
 using NFramework.IAP;
+#endif
 using NFramework.Tracking;
 using System;
 using System.Collections.Generic;
@@ -16,22 +18,22 @@ namespace TenCrush
         public void Init()
         {
             TrackingManager.I.Init();
+#if USE_UNITY_PURCHASING
             IAPManager.OnPurchased += IAPManager_OnPurchased;
+#endif
         }
 
+#if USE_UNITY_PURCHASING
         private void IAPManager_OnPurchased(UnityEngine.Purchasing.Product product, string location)
         {
             var iapRevenueData = new IAPRevenueData(product.definition.id, product.metadata.isoCurrencyCode, product.metadata.localizedPrice,
           product.transactionID, "", location);
             TrackingManager.I.TrackIAP(Define.AdjustEventToken.AJ_PURCHASE, iapRevenueData, ETrackingAdapterType.Adjust);
-            //if (TrackingManager.I.TryGetAdapter(ETrackingAdapterType.Adjust, out var adapter))
-            //{
-            //    var adjustAdapter = adapter as AdjustAnalyticsAdapter;
-            //}
 
             Falcon.DWHLog.Log.InAppLog(product.definition.id, product.metadata.isoCurrencyCode, product.metadata.localizedPrice,
                 product.transactionID, "", location);
         }
+#endif
 
         public void TrackLevelStart()
         {

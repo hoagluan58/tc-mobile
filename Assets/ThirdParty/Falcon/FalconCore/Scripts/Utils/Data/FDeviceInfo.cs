@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using UnityEngine;
 #if UNITY_IOS
 using System.Globalization;
@@ -67,6 +67,8 @@ namespace Falcon.FalconCore.Scripts.Utils.Data
             UUIDiOS.SaveKeyChainValue(key, uuid);
             return uuid;
         }
+#else
+            return SystemInfo.deviceUniqueIdentifier;
 #endif
         }
     }

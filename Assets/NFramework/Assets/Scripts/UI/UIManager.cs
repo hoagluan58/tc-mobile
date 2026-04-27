@@ -365,6 +365,9 @@ namespace NFramework
 #if UNITY_EDITOR
             UnityEditor.EditorUtility.DisplayDialog(title, message, ok);
             callback?.Invoke();
+#elif UNITY_WEBGL
+            Debug.Log($"[SystemPopup] {title}: {message}");
+            callback?.Invoke();
 #else
             pingak9.NativeDialog.OpenDialog(title, message, ok, callback);
 #endif
@@ -377,6 +380,9 @@ namespace NFramework
                 callback?.Invoke(true);
             else
                 callback?.Invoke(false);
+#elif UNITY_WEBGL
+            Debug.Log($"[SystemPopup] {title}: {message}");
+            callback?.Invoke(true);
 #else
                 pingak9.NativeDialog.OpenDialog(title, message, yes, no, () => { callback?.Invoke(true); }, () => { callback?.Invoke(false); });
 #endif

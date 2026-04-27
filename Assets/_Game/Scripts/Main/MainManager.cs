@@ -59,8 +59,10 @@ namespace TenCrush
                 yield return null;
             }
 
+#if USE_UNITY_PURCHASING
             GameIAP.I.Init();
             yield return null;
+#endif
 
             if (!DeviceInfo.IsNoAds)
             {

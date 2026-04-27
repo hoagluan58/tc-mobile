@@ -1,5 +1,7 @@
 using NFramework;
+#if USE_UNITY_PURCHASING
 using NFramework.IAP;
+#endif
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -13,9 +15,13 @@ namespace TenCrush
         [SerializeField] private TextMeshProUGUI _txtPrice;
         [SerializeField] private List<RewardItemView> _rewardItems;
         [SerializeField] private Button _btnBuy;
+#if USE_UNITY_PURCHASING
         [SerializeField] private IAPProductSO _productSO;
+#endif
 
+#if USE_UNITY_PURCHASING
         private IAPData _iapData;
+#endif
 
         private void Awake()
         {
@@ -27,6 +33,7 @@ namespace TenCrush
         private void OnBuyButtonClicked()
         {
             GameSound.I.PlayButtonClickSFX();
+#if USE_UNITY_PURCHASING
             GameIAP.I.Purchase(_productSO, (result) =>
             {
                 if (result)
@@ -35,10 +42,12 @@ namespace TenCrush
                     UIManager.I.Open<RewardPopup>(Define.UIName.REWARD_POPUP).Init(_iapData.rewards);
                 }
             });
+#endif
         }
 
         private void RefreshView()
         {
+#if USE_UNITY_PURCHASING
             _iapData = ShopManager.I.GetIAPData(_productSO.id);
 
             _txtName.text = _productSO.id;
@@ -49,6 +58,7 @@ namespace TenCrush
                 _rewardItems[i].gameObject.SetActive(true);
                 _rewardItems[i].Init(_iapData.rewards[i]);
             }
+#endif
         }
     }
 }

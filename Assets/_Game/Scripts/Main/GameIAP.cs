@@ -1,3 +1,4 @@
+#if USE_UNITY_PURCHASING
 using NFramework.Ads;
 using NFramework.IAP;
 
@@ -26,3 +27,4 @@ namespace TenCrush
         }
     }
 }
+#endif
