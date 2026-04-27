@@ -11,6 +11,13 @@ namespace TenCrush
             Application.targetFrameRate = 60;
             Input.multiTouchEnabled = false;
 
+            // Destroy debug console in non-editor builds
+#if !UNITY_EDITOR
+            var debugConsole = FindObjectOfType<IngameDebugConsole.DebugLogManager>();
+            if (debugConsole != null)
+                Destroy(debugConsole.gameObject);
+#endif
+
             StartCoroutine(CRLoadGame());
         }
 
@@ -20,7 +27,6 @@ namespace TenCrush
             UIManager.I.CloseAllInLayer(EUILayer.Popup);
             UIManager.I.CloseAllInLayer(EUILayer.AlwaysOnTop);
             UIManager.I.Open(Define.UIName.HOME_MENU);
-            UIManager.I.Open(Define.UIName.CHEAT_UI);
         }
 
         private IEnumerator CRLoadGame()
